@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.border-right-black {
+    border-right-color: black;
+}
+
+.container::-webkit-scrollbar {
+    width: 4px; 
+}
+  
+.container::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5); 
+}
